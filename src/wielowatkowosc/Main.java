@@ -25,7 +25,7 @@ public class Main {
         
         Thread watek3 =new Thread(new CounterRunnable(licznik,false),"Maleje");
         Thread watek4 =new Thread(new CounterRunnable(licznik,true),"Rośnie");
-       // watek3.start();
+        watek3.start();
         watek4.start();
       
     }
